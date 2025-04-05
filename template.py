@@ -13,7 +13,7 @@ list_of_files=[
     "src/pipeline/training_pipeline.py",     #train the model
     "src/pipeline/prediction_pipeline.py",     #make predictions
     "src/logger/logging.py", # Code to log messages (for debugging).
-    "src/exception/exception",     #Handles errors that happen during execution.
+    "src/exception/exception.py",     #Handles errors that happen during execution.
     "src/utils/utils.py",    #Extra helper functions.
     "tests/unit/_init_.py",         #For writing unit tests (testing small parts).
     "tests/integration/_init_.py",    #For writing integration tests (testing combined parts).
